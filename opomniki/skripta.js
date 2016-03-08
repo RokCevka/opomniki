@@ -16,6 +16,7 @@ window.addEventListener('load', function() {
 			else{
 				var naziv = document.querySelector(".naziv_opomnika").innerHTML;
 				//throw alert
+				alert("Hojladri");
 				document.querySelector("#opomniki").removeChild(opomnik);
 			}
 			//TODO: 
@@ -45,7 +46,7 @@ window.addEventListener('load', function() {
 		document.querySelector("#cas_opomnika").value="";
 		
 		
-	document.querySelector("#opomniki").innerHTML+="<div class='opomnik'>"
+	document.querySelector("#opomniki").innerHTML+="<div class='opomnik senca rob'>"
             +"<div class='naziv_opomnika'>"+naziv+"</div>"
             +"<div class='cas_opomnika'> Opomnik čez <span>"+dolzina+"</span> sekund.</div></div>";
 	}
